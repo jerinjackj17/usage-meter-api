@@ -1,4 +1,4 @@
-package com.jj.helloapi.dto;
+package com.jj.usagemeterapi.dto;
 
 public class CalculateResponse {
 

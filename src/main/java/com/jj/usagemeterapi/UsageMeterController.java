@@ -1,13 +1,13 @@
-package com.jj.helloapi;
+package com.jj.usagemeterapi;
 
-import com.jj.helloapi.dto.CalculateRequest;
-import com.jj.helloapi.dto.CalculateResponse;
+import com.jj.usagemeterapi.dto.CalculateRequest;
+import com.jj.usagemeterapi.dto.CalculateResponse;
 import org.springframework.web.bind.annotation.*;
 
 @RestController
 @RequestMapping("/api")
 @CrossOrigin(origins = "*")
-public class HelloController {
+public class UsageMeterController {
 
     @PostMapping("/calculate")
     public CalculateResponse calculate(@RequestBody CalculateRequest request) {
