@@ -1,4 +1,4 @@
-package com.jj.usagemeterapi.dto;
+package com.jj.usagemeterapi.calculator.dto;
 
 public class CalculateResponse {
 

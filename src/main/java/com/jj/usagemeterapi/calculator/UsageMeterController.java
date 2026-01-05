@@ -1,7 +1,7 @@
-package com.jj.usagemeterapi;
+package com.jj.usagemeterapi.calculator;
 
-import com.jj.usagemeterapi.dto.CalculateRequest;
-import com.jj.usagemeterapi.dto.CalculateResponse;
+import com.jj.usagemeterapi.calculator.dto.CalculateRequest;
+import com.jj.usagemeterapi.calculator.dto.CalculateResponse;
 import org.springframework.web.bind.annotation.*;
 
 @RestController
